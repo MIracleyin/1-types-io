@@ -1,10 +1,12 @@
-/*
-File : planck.c
-Author : Wu Yuqing
-ID : 191250151
-Date : 2021 - 10 - 13
-*/
-
+/**
+ * File: inverse.c
+ *
+ * Author:
+ * ID:
+ * Date:
+ *
+ * This template is created by Wu Yuqing (10-13-2021)
+ */
 // h = 6.62607015e-34
 #include <stdio.h>
 
