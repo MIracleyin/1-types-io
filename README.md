@@ -51,11 +51,18 @@ Programming Exercises on Variables, Types, Maths, and Formatted Printing.
 根据给定的日期, 计算当日是周几。
 
 - 输入: 三个整数, 分别表示年月日, 之间以空格相隔
-- 输出: 周几 (Sun, Mon, Tue, Wed, Thu, Fri, Sat)
+- 输出: 周几 (0代表周日，1代表周一，以此类推)
 
 示例:
+
 - 输入: 2021 10 12
-- 输出: Tue
+- 输出: 2
+
+提示:
+
+- 可以使用 `math.h` 中的floor函数进行向下取整
+- 如果得到了一个`double`类型的数`d`，想要对它进行取模操作，我们可以
+  - `(int) d % 7`
 
 ---
 
