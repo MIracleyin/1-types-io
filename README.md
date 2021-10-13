@@ -20,5 +20,4 @@ Programming Exercises on Variables, Types, Maths, and Formatted Printing.
 - 使用模式
 - 如何处理用户输入
 - 如何处理 `-lm`
-
 ---
