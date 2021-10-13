@@ -5,6 +5,8 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(pi pi.c)
 add_executable(time time.c)
+add_executable(gray gray.c)
+add_executable(change change.c)
 add_executable(weakday weekday.c)
 add_executable(inverse inverse.c)
 add_executable(equation equation.c)
