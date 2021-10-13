@@ -12,9 +12,9 @@ Programming Exercises on Variables, Types, Maths, and Formatted Printing.
 
 分别用以下两种方式计算圆周率:
 
-- [Machin 公式](https://en.wikipedia.org/wiki/Approximations_of_%CF%80#Machin-like_formula)
+- [Machin Formula @ wiki](https://en.wikipedia.org/wiki/Approximations_of_%CF%80#Machin-like_formula)
   - PI / 4 = 4 arctan (1/5) - arctan (1/239)
-- [以下公式](https://en.wikipedia.org/wiki/Approximations_of_%CF%80#Miscellaneous_approximations)
+- [Formula @ wiki](https://en.wikipedia.org/wiki/Approximations_of_%CF%80#Miscellaneous_approximations)
   - ln (640320^3 + 744) / (sqrt of 163)
 
 要求:
@@ -42,6 +42,20 @@ Programming Exercises on Variables, Types, Maths, and Formatted Printing.
 
 - 输入: November 17 1968 Sunday 6:6:6
 - 输出: Sun Nov 17 06:06:06 1968
+
+---
+
+### `weekday.c`
+
+利用 [Gauss's Algorithm @ wiki](https://en.wikipedia.org/wiki/Determination_of_the_day_of_the_week#Disparate_variation)，
+根据给定的日期, 计算当日是周几。
+
+- 输入: 三个整数 `year`, `month`, `day`, 分别为年月日，之间以空格相隔
+- 输出: 周几 (Sun, Mon, Tue, Wed, Thu, Fri, Sat)
+
+示例:
+- 输入: 2021 10 12
+- 输出: Tue
 
 ---
 
@@ -75,20 +89,6 @@ ax^2 + bx + c = 0。
 - 判别式 >= 0。
 
 ---
-
-### `day_of_the_week.c`
-
-利用[Wikipedia中的Gauss's algorithm变体](https://en.wikipedia.org/wiki/Determination_of_the_day_of_the_week#Disparate_variation)，给出日期，计算出当日是星期几。
-
-- 输入: 三个整数 y, m, d, 分别为年月日，之间以空格相隔
-- 输出: 星期几(Sun, Mon, Tue, Wed, Thu, Fri, Sat)
-
-Hint: 向下取整可以通过将浮点数赋值给整数完成
-
-示例：
-
-- 输入: 2021 10 12
-- 输出: Tue
 
 ## 如何做作业
 
