@@ -64,6 +64,8 @@ Programming Exercises on Variables, Types, Maths, and Formatted Printing.
 - 如果得到了一个`double`类型的数`d`，想要对它进行取模操作，我们可以
   - `(int) d % 7`
 
+提示: 你可能需要使用 `floor` 函数, 请自行查找其含义与用法。
+
 ---
 
 ### `inverse.c`
