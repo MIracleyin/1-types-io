@@ -26,6 +26,23 @@ Programming Exercises on Variables, Types, Maths, and Formatted Printing.
 
 ### `time.c`
 
+问题描述: 用户输入日期与时间信息, 需要按指定格式输出。
+
+- 输入格式:
+- 输出格式: `Www Mmm dd hh:mm:ss yyyy`
+  - `Www`: 3-letter abbreviated day of the week
+  - `Mmm`: 3-letter abbreviated month name
+  - `dd`: 2-digit day of the month
+  - `hh`: 2-digit hour
+  - `mm`: 2-digit minute
+  - `ss`: 2-digit second
+  - `yyyy`: 4-digit year
+
+举例:
+
+- 输入: November 17 1968 Sunday 6:6:6
+- 输出: Sun Nov 17 06:06:06 1968
+
 ---
 
 ### `inverse.c`
@@ -36,6 +53,11 @@ Programming Exercises on Variables, Types, Maths, and Formatted Printing.
 
 - 输入 123, 输出 321。
 - 输入 100, 输出 001。
+
+提示:
+
+- 你可以修改 `inverse.c` 中的 `scanf`
+- 你可能需要使用 `/` (整数除法操作) 与 `%` (整数取余操作); 请参阅教材。
 
 ---
 
@@ -68,8 +90,12 @@ Hint: 向下取整可以通过将浮点数赋值给整数完成
 
 - 参考作业 `hello-c` 中的 `README.md`
 
+---
+
 ## 关于 GitHub Classroom
 
 - 使用模式
 - 如何处理用户输入
 - 如何处理 `-lm`
+
+---
