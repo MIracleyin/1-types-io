@@ -50,7 +50,7 @@ Programming Exercises on Variables, Types, Maths, and Formatted Printing.
 利用 [Gauss's Algorithm @ wiki](https://en.wikipedia.org/wiki/Determination_of_the_day_of_the_week#Disparate_variation)，
 根据给定的日期, 计算当日是周几。
 
-- 输入: 三个整数 `year`, `month`, `day`, 分别为年月日，之间以空格相隔
+- 输入: 三个整数, 分别表示年月日, 之间以空格相隔
 - 输出: 周几 (Sun, Mon, Tue, Wed, Thu, Fri, Sat)
 
 示例:
