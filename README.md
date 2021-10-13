@@ -78,13 +78,17 @@ ax^2 + bx + c = 0。
 
 ### `day_of_the_week.c`
 
-利用[Wikipedia中的Gauss's algorithm变体](https://en.wikipedia.org/wiki/Determination_of_the_day_of_the_week#Disparate_variation)，给出日期，计算
-出当日是星期几。
+利用[Wikipedia中的Gauss's algorithm变体](https://en.wikipedia.org/wiki/Determination_of_the_day_of_the_week#Disparate_variation)，给出日期，计算出当日是星期几。
 
 - 输入: 三个整数 y, m, d, 分别为年月日，之间以空格相隔
 - 输出: 星期几(Sun, Mon, Tue, Wed, Thu, Fri, Sat)
 
 Hint: 向下取整可以通过将浮点数赋值给整数完成
+
+示例：
+
+- 输入: 2021 10 12
+- 输出: Tue
 
 ## 如何做作业
 
