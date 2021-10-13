@@ -57,6 +57,8 @@ Programming Exercises on Variables, Types, Maths, and Formatted Printing.
 - 输入: 2021 10 12
 - 输出: Tue
 
+提示: 你可能需要使用 `floor` 函数, 请自行查找其含义与用法。
+
 ---
 
 ### `inverse.c`
