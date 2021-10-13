@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.20)
-project(hello_c C)
+project(1-types-io C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(hello hello.c)
+add_executable(pi pi.c)
+add_executable(time time.c)
+add_executable(inverse inverse.c)
+add_executable(equation equation.c)
