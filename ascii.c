@@ -1,5 +1,5 @@
 /**
- * File: weekday.c
+ * File: ascii.c
  *
  * Author:
  * ID:
@@ -7,7 +7,7 @@
  */
 
 int main() {
-    scanf("%d %d %d", &year, &month, &day);
+    scanf("%d", &number);
 
     return 0;
 }
