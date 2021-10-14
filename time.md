@@ -2,7 +2,7 @@
 
 问题描述: 用户输入日期与时间信息, 需要按指定格式输出。
 
-- 输入格式:
+- 输入格式: month day year weekday hour:minute:second
 - 输出格式: `Www Mmm dd hh:mm:ss yyyy`
     - `Www`: 3-letter abbreviated day of the week
     - `Mmm`: 3-letter abbreviated month name
