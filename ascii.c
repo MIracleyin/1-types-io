@@ -5,9 +5,16 @@
  * ID:
  * Date:
  */
+#include <ctype.h>
 
 int main() {
-    scanf("%d", &number);
+  int number = 0;
+  scanf("%d", &number);
 
-    return 0;
+  printf("%d\n", number);
+  printf("%c\n", number);
+  printf("%c\n", number - 32);
+//  printf("%c\n", toupper(number));
+
+  return 0;
 }
